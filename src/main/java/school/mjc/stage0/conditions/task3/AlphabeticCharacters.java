@@ -23,7 +23,7 @@ public class AlphabeticCharacters {
             System.out.println("Consonant");
 
         } else {
-            System.out.println("wrong Alphabet!");
+            System.out.println("wrong alphabet!");
         }
 
 
