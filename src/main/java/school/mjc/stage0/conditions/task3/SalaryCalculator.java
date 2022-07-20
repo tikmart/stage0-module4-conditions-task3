@@ -1,12 +1,11 @@
 package school.mjc.stage0.conditions.task3;
 
 public class SalaryCalculator {
-    public void calculateSalary(int salary) {
+    public static void calculateSalary(int salary) {
 
-        salary = 5000;
         float cleanSalary;
 
-        if (salary <= 10000){
+        if (0 < salary && salary <= 10000){
 
              cleanSalary = salary - (salary * 15 / 100);
             System.out.println(cleanSalary);
@@ -25,4 +24,11 @@ public class SalaryCalculator {
             System.out.println("wrong input!");
         }
 
-    }}
+    }
+    public static void main(String[] args) {
+        calculateSalary(5000);
+        calculateSalary(15000);
+        calculateSalary(35000);
+        calculateSalary(-1);
+    }
+}

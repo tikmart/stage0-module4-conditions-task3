@@ -1,8 +1,8 @@
 package school.mjc.stage0.conditions.task3;
 
 public class IsEnglishSymbolDeterminer {
-    public void isEnglishSymbol(char symbol) {
-        symbol = 'r';
+    public static void isEnglishSymbol(char symbol) {
+
         
         if (symbol == 'a' || symbol == 'b' || symbol == 'c' || symbol == 'd' || symbol == 'e' || symbol == 'f' 
                 || symbol == 'g' || symbol == 'h' || symbol == 'i' || symbol == 'j' || symbol == 'k' || 
@@ -20,5 +20,13 @@ public class IsEnglishSymbolDeterminer {
         }else {
             System.out.println("Non English");
         }
+    }
+
+    public static void main(String[] args) {
+        isEnglishSymbol('r');
+        isEnglishSymbol('R');
+        isEnglishSymbol('Ł');
+        isEnglishSymbol('ł');
+
     }
 }

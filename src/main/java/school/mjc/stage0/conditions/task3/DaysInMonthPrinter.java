@@ -1,8 +1,8 @@
 package school.mjc.stage0.conditions.task3;
 
 public class DaysInMonthPrinter {
-    public void amountOfDays(int month) {
-        month = 2;
+    public static void amountOfDays(int month) {
+
 
         if (month == 1) {
             System.out.println(31);
@@ -54,5 +54,12 @@ public class DaysInMonthPrinter {
         } else {
             System.out.println("wrong number!");
         }
+    }
+
+    public static void main(String[] args) {
+        amountOfDays(6);
+        amountOfDays(2);
+        amountOfDays(-2);
+
     }
 }

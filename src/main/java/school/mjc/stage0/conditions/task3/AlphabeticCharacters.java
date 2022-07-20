@@ -33,6 +33,8 @@ public class AlphabeticCharacters {
         vowelDeterminer('o');
         vowelDeterminer('B');
         vowelDeterminer('ł');
+
+
     }
 
 }
