@@ -8,7 +8,7 @@ public class AliquotNumbers {
 
             System.out.println("Aliquot");
         } else {
-            System.out.println("Not Aliquot");
+            System.out.println("Not aliquot");
         }
 
     }
